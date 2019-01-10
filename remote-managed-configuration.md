@@ -32,7 +32,7 @@ This document(draft) specifies the response format for remote managed configurat
         "tag": "Region 2",
         "online": true,
         "description": "Information about it."
-      }
+      },
       {
         "tag": "Region 3",
         "online": false,
