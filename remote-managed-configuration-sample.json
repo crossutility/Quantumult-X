@@ -25,7 +25,7 @@
         "tag": "Region 2",
         "online": true,
         "description": "Information about it."
-      }
+      },
       {
         "tag": "Region 3",
         "online": false,
