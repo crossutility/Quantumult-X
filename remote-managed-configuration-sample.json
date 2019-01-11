@@ -7,7 +7,7 @@
     "provider_image_url": "https://avatars1.githubusercontent.com/u/44658120?s=460&v=4",
     "provider_name": "Provider Roommate",
     "account_description": "Level 5",
-    "extension_check_interval":3600,
+    "extension_check_interval":120,
     "container_check_interval":60,
     "expire_time": 1862111613,
     "upload": 2375927198,
