@@ -37,7 +37,7 @@ Connection: keep-alive
 ```
 
 ## Modify HTTP response body
-The Content-Length will be auto modified based on the body and encoding.
+The Content-Length will be automatically modified based on the body and encoding.
 
 - **Absolute URL of HTTP Request to match.**
 ``` text
