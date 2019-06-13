@@ -1,0 +1,4 @@
+; hostname line is optional.
+hostname = *.example.com, *.sample.com
+^http://example\.com/resource2/ url 302 http://example.com/new-resource2/
+^http://example\.com/resource3/ url 307 http://example.com/new-resource3/
