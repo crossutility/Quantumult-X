@@ -1,2 +1,2 @@
 ss://YWVzLTEyOC1jZmI6ZmY=@example1.com:33333/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#Server-Name-1
-
+ss://YWVzLTEyOC1jZmI6ZmY=@example2.com:33333/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#Server-Name-2
