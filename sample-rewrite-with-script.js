@@ -1,4 +1,4 @@
-// $request, $response, $notify(title, message), console.log(message)
+// $request, $response, $notify(title, subtitle, message), console.log(message)
 // $request.scheme, $request.method, $request.url, $request.path, $request.body, $request.headers
 // $response.statusCode, $response.headers, $response.body
 
