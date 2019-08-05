@@ -279,10 +279,3 @@ ss://YWVzLTEyOC1jZmI6ZmY=@test-00-277.example.com:80/?plugin=obfs-local%3Bobfs%3
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-278.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-278
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-279.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-279
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-280.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-280
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-281.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-281
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-282.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-282
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-283.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-283
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-284.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-284
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-285.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-285
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-286.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-286
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-287.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-287
