@@ -286,4 +286,3 @@ ss://YWVzLTEyOC1jZmI6ZmY=@test-00-284.example.com:80/?plugin=obfs-local%3Bobfs%3
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-285.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-285
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-286.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-286
 ss://YWVzLTEyOC1jZmI6ZmY=@test-00-287.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-287
-ss://YWVzLTEyOC1jZmI6ZmY=@test-00-288.example.com:80/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbing.com#ui-00-288
