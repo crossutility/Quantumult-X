@@ -1,0 +1,35 @@
+{
+    "log": {
+        "loglevel": "debug"
+    },
+    "inbound": {
+        "port": 80,
+        "listen": "192.168.1.1",
+        "protocol": "shadowsocks",
+        "settings": {
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "pwd"
+        },
+        "streamSettings": {
+            "network": "ws",
+            "security": "tls",
+            "wsSettings": {
+                "path": "/ws-tls"
+            },
+            "tlsSettings": {
+                "certificates": [
+                    {
+                        "certificateFile": "/path/to/certificateFile",
+                        "keyFile": "/path/to/keyFile"
+                    }
+                ]
+            }
+        }
+    },
+    "outbound": {
+        "protocol": "freedom",
+        "settings": {},
+        "tag": "direct"
+    }
+}
