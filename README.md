@@ -1,5 +1,5 @@
 # Quantumult X
-Quantumult Experiment
+Quantumult Rebuilt from Scratch
 
 ### New Features
 * MitM HTTPS decryption and rewrite are both working with traffic through TUN interface.
