@@ -13,4 +13,4 @@ Quantumult Rebuilt from Scratch
 * Policy status and request history will keep the record of the full policy route like A -> B -> C -> D.
 * The DNS results will be recorded along with the first responded DNS server, response time and the TTL.
 * Modify configuration won't trigger reconnecting anymore.
-* Rewrite HTTP request headers and response body.
+* Rewrite HTTP request headers, response status, response headers and response body.
