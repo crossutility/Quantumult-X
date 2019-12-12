@@ -1,9 +1,3 @@
-/**
- * @supported 23AD6B11CD4B 55BE3B10F8A1
- * The above random generated device ID can be found at the bottom of Quantumult X additional menu, and may be changed when system restored.
- * Indicate what device are supported by the file. This is necessary when the file is not loaded from local("On My iPhone - Quantumult X - Scripts").
- */
-
 // $request, $response, $notify(title, subtitle, message), console.log(message)
 // $request.scheme, $request.method, $request.url, $request.path, $request.headers
 // $response.statusCode, $response.headers, $response.body
