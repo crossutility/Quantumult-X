@@ -2,8 +2,6 @@
 /**
  * @fileoverview Example to compose HTTP reqeuest
  * and handle the response. Same task shares context.
- * $task.fetch() only works for tasks not rewrite
- * rules.
  *
  * @supported Quantumult X (v1.0.5-build166)
  */
