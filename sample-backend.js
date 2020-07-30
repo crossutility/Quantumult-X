@@ -15,7 +15,7 @@
 */
 
 
-// The availabel variables: $request.url, $request.path, $request.headers, $request.body, $notify(title, subtitle, message), console.log(message), $done(response)
+// The availabel variables: $request.url, $request.path, $request.headers, $request.body, $prefs, $task, $notify(title, subtitle, message), console.log(message), $done(response)
 
 const myStatus = "HTTP/1.1 200 OK";
 const myHeaders = {"Connection": "Close"};
