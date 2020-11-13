@@ -1,17 +1,16 @@
 
 /**
- * @fileoverview Example to compose HTTP reqeuest
- * and handle the response. Same task shares context.
+ * @fileoverview Example to compose HTTP request
+ * and handle the response.
  *
- * @supported Quantumult X (v1.0.5-build166)
  */
 
-var url = "https://example.com/";
-var method = "POST";
-var headers = {"Field": "test-header-param"};
-var data = {"info": "abc"};
+const url = "https://example.com/";
+const method = "POST";
+const headers = {"Field": "test-header-param"};
+const data = {"info": "abc"};
 
-var myRequest = {
+const myRequest = {
     url: url,
     method: method, // Optional, default GET.
     headers: headers, // Optional.
@@ -22,7 +21,9 @@ $task.fetch(myRequest).then(response => {
     // response.statusCode, response.headers, response.body
     console.log(response.body);
     $notify("Title", "Subtitle", response.body); // Success!
+    $done();
 }, reason => {
     // reason.error
     $notify("Title", "Subtitle", reason.error); // Error!
+    $done();
 });
