@@ -15,7 +15,7 @@ This document describes how to configure Quantumult X as gateway for other devic
 * Setup guide:
   1. Turn on IP forwarding for device D-GW.  
 Since iOS sanboxed app has no such privilege, you should turn on manually.  
-If the device (D-GW) is a M1 chip Mac then it is simple, or you'll have to find other ways on your own:
+If the device (D-GW) is a M1 chip Mac then it is simple, or (like iPhone) you'll have to find other ways to input the below command on your own:
      ```bash
      sudo sysctl -w net.inet.ip.forwarding=1
      ```
