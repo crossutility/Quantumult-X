@@ -27,5 +27,6 @@ If the device (D-GW) is a M1 chip Mac then it is simple, or (like iPhone) you'll
      * DNS: ***198.19.0.3*** (Update it using Quantumult X Tunnel DNS handler).
 
 ### Notice
+* The MitM (and rewrite) works for LAN devices in the gateway mode. If the connected devices can NOT install and trust the root CA, please be sure turn off MitM.
 * Since Quantumult X is mainly targeted on iOS devices with NE (Network Extension) memory limitations, the thoughput as gateway for LAN devices maybe limited in version 1.0.17.  
 If you concerns about the maximum network throughput of your LAN devices you can wait for the later versions that will optimize for M1 chip Mac (iOS apps on M1 chip Mac has no NE memory limitations).
