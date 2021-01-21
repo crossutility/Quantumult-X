@@ -12,11 +12,11 @@
  * $response.bodyBytes is instance of ArrayBuffer.
  *
  * [rewrite_local]
- * ^https://raw\.githubusercontent\.com/crossutility/Quantumult-X/master/icon-samples/apple-rbk\.PNG url script-response-body https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-bytes-rewrite.js
+ * ^https://raw\.githubusercontent\.com/crossutility/Quantumult-X/master/icon-samples/apple\.PNG url script-response-body https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-bytes-rewrite.js
  */
 
 
- const url = "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-samples/telegram-rbk.PNG";
+ const url = "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-samples/telegram.PNG";
  const myRequest = {
      url: url
  };
