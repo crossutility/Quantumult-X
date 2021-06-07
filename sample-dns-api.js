@@ -12,10 +12,18 @@
 * Don't confuse the ip in DNS A record with the reserved ip fetched from dns_get_placeholder_ip. The ip in DNS A record is the real ip for outbound connections.
 *
 *
+* Action: dns_clear_cache
+* This action clear all DNS caches.
 *
-* @supported Quantumult X (v1.0.22-build555) iOS 13.0 +
+*
+* @supported Quantumult X (v1.0.22-build562) iOS 13.0 +
 */
 
+/*
+const message = {
+    action: "dns_clear_cache"
+};
+*/
 
 /*
 const host = "example.com";
