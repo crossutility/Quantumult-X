@@ -7,7 +7,7 @@
  * The below rewrite sample specifies the process to replace the bytes of an image with the bytes of another image.
  * It is worth noting that it's simpler to use the 302 redirection rewrite, but this is a good example on the usage of modifing the body that is not a string.
  *
- * @supported Quantumult X (v1.0.19-build480) and iOS 14.0 +
+ * @supported "Quantumult X (v1.0.19-build480) and iOS 14.0 +" or "Quantumult X (v1.0.21-build535) and iOS 13.0 +"
  *
  * $response.bodyBytes is instance of ArrayBuffer.
  *
