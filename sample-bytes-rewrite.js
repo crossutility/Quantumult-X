@@ -35,3 +35,7 @@
 // uint8[7] = 5;
 
 // $done({bodyBytes: buffer});
+
+// If you are getting buffer directly from another Uint8Array, you probably want slicing the results.
+// The otherUint8 is a Uint8Array from somewhere else.
+// $done({bodyBytes: otherUint8.buffer.slice(otherUint8.byteOffset, otherUint8.byteLength + otherUint8.byteOffset)});
