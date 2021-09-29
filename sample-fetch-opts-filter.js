@@ -1,5 +1,5 @@
 /**
- * @fileoverview Example to filter the huge response body before passing it to the receiver.
+ * @fileoverview Deprecated since v1.0.17
  *
  * The new filter options has less memory footprint of Network Extension, it is
  * recommended to use the option when response body is larger than 512 KB.
