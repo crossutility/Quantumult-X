@@ -23,7 +23,7 @@
      $done();
  });
 
- // For cusomized geo location checker with event-interaction task, you can use HTTPS API instead of HTTP API (built-in geo_location_checker only supports HTTP API).
+ // For customized geo location checker with event-interaction task, you can use HTTPS API instead of HTTP API (built-in geo_location_checker only supports HTTP API).
  // The event-interaction task only works when Quantumult X Tunnel is running.
  // The img-url for event-interaction also works with UIAction if it is a SF Symbol.
  // [task_local]
@@ -43,6 +43,14 @@
  //
  // $task.fetch(myRequest).then(response => {
  //     $done({"title":"The Title","message":response.body});
+ // }, reason => {
+ //     $done({"title":"The Error Title","message":"The message"});
+ // });
+ //
+ // Quantumult X (v1.0.25-build606)
+ // $task.fetch(myRequest).then(response => {
+ //     var content= `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: bold">` + response.body + `</p>`;
+ //     $done({"title":"The Title","htmlMessage":content});
  // }, reason => {
  //     $done({"title":"The Error Title","message":"The message"});
  // });
