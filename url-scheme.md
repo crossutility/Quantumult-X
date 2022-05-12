@@ -14,6 +14,7 @@ Host is empty.
 
 The "add-resource" is available since Quantumult X 1.0.29 build 670.  
 The "quantumult-x:///update-configuration?remote-resource=" replaces all existed resources, yet the "quantumult-x:///add-resource?remote-resource=" keeps all existed resources.  
+The "quantumult-x:///ui?module=gallery&action=add"  is available since Quantumult X 1.0.29 build 672.  
 
 - [quantumult-x:///update-configuration?remote-resource=url-encoded-json](https://github.com/crossutility/Quantumult-X)
 
@@ -55,4 +56,28 @@ quantumult-x:///add-resource?remote-resource=%7B%0A%20%20%20%20%22server_remote%
         "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.snippet, tag=Sample"
     ]
 }
+```
+
+- [quantumult-x:///ui?module=gallery&type=task&action=add&content=url-encoded-json](https://github.com/crossutility/Quantumult-X)
+
+``` text
+quantumult-x:///ui?module=gallery&type=task&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fcrossutility%2FQuantumult-X%2Fmaster%2Fgallery.json%22%0A%5D
+```
+
+``` json
+[
+    "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/gallery.json"
+]
+```
+
+- [quantumult-x:///ui?module=gallery&type=icon&action=add&content=url-encoded-json](https://github.com/crossutility/Quantumult-X)
+
+``` text
+quantumult-x:///ui?module=gallery&type=icon&action=add&content=%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2Fcrossutility%2FQuantumult-X%2Fmaster%2Ficon-gallery.json%22%0A%5D
+```
+
+``` json
+[
+     "https://raw.githubusercontent.com/crossutility/Quantumult-X/master/icon-gallery.json"
+]
 ```
