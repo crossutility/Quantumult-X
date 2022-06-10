@@ -9,6 +9,12 @@
 * Returns a JSON like {"ret" : {"Node-001" : [31, 126], "Node-002" : [23, -1]}}
 *
 *
+* Action: get_server_description (only available for event-interaction script and v1.0.30-build691 iOS 13.0 +)
+* Returns a JSON like {"ret" : {"TheTag" : "socks5=example.com:80,fast-open=false, udp-relay=false, tag=TheTag"}}
+* If no such server with the tag, then returns a JSON {"ret" : {"TheTag" : ""}}
+* This action does not support empty or array content input, since getting all servers is inappropriate.
+*
+*
 * Action: get_customized_policy
 * Returns a JSON
 *
@@ -47,6 +53,14 @@ const array = ["Node-001","Node-002","Node-003","Node-004"];
 const message = {
     action: "url_latency_benchmark",
     content: array
+};
+*/
+
+/*
+const data = "TheTag";
+const message = {
+    action: "get_server_description",
+    content: data
 };
 */
 
