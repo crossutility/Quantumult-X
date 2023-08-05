@@ -10,6 +10,11 @@
 *
 * You should first create a file named apple-tv.conf and a directory named 「shared-profile」 in 「iCloud Drive /Quantumult X/Data/」 for this sample script to work.
 *
+* You can also export rootCA.crt from your iOS devices to 「iCloud Drive /Quantumult X/Data/shared-cert/rootCA.crt」then install it on tvOS through http://[lan-ip]:[port]/icloud-profile/shared-cert/rootCA.crt
+*
+* You can find the details of how to install CA on tvOS through a HTTP(S) CA file by searching google.
+*
+*
 * @supported Quantumult X (v1.0.31-build717)
 *
 */
