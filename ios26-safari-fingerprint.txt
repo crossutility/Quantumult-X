@@ -1,0 +1,166 @@
+TLSv1.3 Record Layer: Handshake Protocol: Client Hello
+    Content Type: Handshake (22)
+    Version: TLS 1.0 (0x0301)
+    Length: 1538
+    Handshake Protocol: Client Hello
+        Handshake Type: Client Hello (1)
+        Length: 1534
+        Version: TLS 1.2 (0x0303)
+        Random: 42effe2ec83dd44c44f63497bdd09aefd74d712faf023fbf3020ae9b7bbb72e9
+        Session ID Length: 32
+        Session ID: 24853f7b2bead6c01f670dbe5c8b73a35147a02269f91adeb4fb84f5bda245fa
+        Cipher Suites Length: 42
+        Cipher Suites (21 suites)
+            Cipher Suite: Reserved (GREASE) (0xdada)
+            Cipher Suite: TLS_AES_256_GCM_SHA384 (0x1302)
+            Cipher Suite: TLS_CHACHA20_POLY1305_SHA256 (0x1303)
+            Cipher Suite: TLS_AES_128_GCM_SHA256 (0x1301)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xc030)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xc02f)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca8)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xc014)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xc013)
+            Cipher Suite: TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009d)
+            Cipher Suite: TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009c)
+            Cipher Suite: TLS_RSA_WITH_AES_256_CBC_SHA (0x0035)
+            Cipher Suite: TLS_RSA_WITH_AES_128_CBC_SHA (0x002f)
+            Cipher Suite: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA (0xc008)
+            Cipher Suite: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA (0xc012)
+            Cipher Suite: TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000a)
+        Compression Methods Length: 1
+        Compression Methods (1 method)
+            Compression Method: null (0)
+        Extensions Length: 1419
+        Extension: Reserved (GREASE) (len=0)
+            Type: Reserved (GREASE) (2570)
+            Length: 0
+            Data: <MISSING>
+        Extension: server_name (len=25) name=speed.cloudflare.com
+            Type: server_name (0)
+            Length: 25
+            Server Name Indication extension
+                Server Name list length: 23
+                Server Name Type: host_name (0)
+                Server Name length: 20
+                Server Name: speed.cloudflare.com
+        Extension: extended_master_secret (len=0)
+            Type: extended_master_secret (23)
+            Length: 0
+        Extension: renegotiation_info (len=1)
+            Type: renegotiation_info (65281)
+            Length: 1
+            Renegotiation Info extension
+                Renegotiation info extension length: 0
+        Extension: supported_groups (len=14)
+            Type: supported_groups (10)
+            Length: 14
+            Supported Groups List Length: 12
+            Supported Groups (6 groups)
+                Supported Group: Reserved (GREASE) (0xaaaa)
+                Supported Group: X25519MLKEM768 (0x11ec)
+                Supported Group: x25519 (0x001d)
+                Supported Group: secp256r1 (0x0017)
+                Supported Group: secp384r1 (0x0018)
+                Supported Group: secp521r1 (0x0019)
+        Extension: ec_point_formats (len=2)
+            Type: ec_point_formats (11)
+            Length: 2
+            EC point formats Length: 1
+            Elliptic curves point formats (1)
+                EC point format: uncompressed (0)
+        Extension: application_layer_protocol_negotiation (len=14)
+            Type: application_layer_protocol_negotiation (16)
+            Length: 14
+            ALPN Extension Length: 12
+            ALPN Protocol
+                ALPN string length: 2
+                ALPN Next Protocol: h2
+                ALPN string length: 8
+                ALPN Next Protocol: http/1.1
+        Extension: status_request (len=5)
+            Type: status_request (5)
+            Length: 5
+            Certificate Status Type: OCSP (1)
+            Responder ID list Length: 0
+            Request Extensions Length: 0
+        Extension: signature_algorithms (len=22)
+            Type: signature_algorithms (13)
+            Length: 22
+            Signature Hash Algorithms Length: 20
+            Signature Hash Algorithms (10 algorithms)
+                Signature Algorithm: ecdsa_secp256r1_sha256 (0x0403)
+                    Signature Hash Algorithm Hash: SHA256 (4)
+                    Signature Hash Algorithm Signature: ECDSA (3)
+                Signature Algorithm: rsa_pss_rsae_sha256 (0x0804)
+                    Signature Hash Algorithm Hash: Unknown (8)
+                    Signature Hash Algorithm Signature: Unknown (4)
+                Signature Algorithm: rsa_pkcs1_sha256 (0x0401)
+                    Signature Hash Algorithm Hash: SHA256 (4)
+                    Signature Hash Algorithm Signature: RSA (1)
+                Signature Algorithm: ecdsa_secp384r1_sha384 (0x0503)
+                    Signature Hash Algorithm Hash: SHA384 (5)
+                    Signature Hash Algorithm Signature: ECDSA (3)
+                Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+                    Signature Hash Algorithm Hash: Unknown (8)
+                    Signature Hash Algorithm Signature: Unknown (5)
+                Signature Algorithm: rsa_pss_rsae_sha384 (0x0805)
+                    Signature Hash Algorithm Hash: Unknown (8)
+                    Signature Hash Algorithm Signature: Unknown (5)
+                Signature Algorithm: rsa_pkcs1_sha384 (0x0501)
+                    Signature Hash Algorithm Hash: SHA384 (5)
+                    Signature Hash Algorithm Signature: RSA (1)
+                Signature Algorithm: rsa_pss_rsae_sha512 (0x0806)
+                    Signature Hash Algorithm Hash: Unknown (8)
+                    Signature Hash Algorithm Signature: Unknown (6)
+                Signature Algorithm: rsa_pkcs1_sha512 (0x0601)
+                    Signature Hash Algorithm Hash: SHA512 (6)
+                    Signature Hash Algorithm Signature: RSA (1)
+                Signature Algorithm: rsa_pkcs1_sha1 (0x0201)
+                    Signature Hash Algorithm Hash: SHA1 (2)
+                    Signature Hash Algorithm Signature: RSA (1)
+        Extension: signed_certificate_timestamp (len=0)
+            Type: signed_certificate_timestamp (18)
+            Length: 0
+        Extension: key_share (len=1263) X25519MLKEM768, x25519
+            Type: key_share (51)
+            Length: 1263
+            Key Share extension
+                Client Key Share Length: 1261
+                Key Share Entry: Group: Reserved (GREASE), Key Exchange length: 1
+                    Group: Reserved (GREASE) (43690)
+                    Key Exchange Length: 1
+                    Key Exchange: 00
+                Key Share Entry: Group: X25519MLKEM768, Key Exchange length: 1216
+                    Group: X25519MLKEM768 (4588)
+                    Key Exchange Length: 1216
+                    Key Exchange […]: f4c315dee2bdd6474fc216b981b68340c36e913b56a7da0dabb428170a4e0605479d016afd91583e6146b0641c61335616e99a247307388820e9ab4c2ab01833811f555b88ce5b583e0c74624ba57bb056b235934efbb861c34070e3a00820c8a4b8af4da4bca33365cfb2a0b46
+                Key Share Entry: Group: x25519, Key Exchange length: 32
+                    Group: x25519 (29)
+                    Key Exchange Length: 32
+                    Key Exchange: 1fedd4354cbb824e208e8bef8877a920f96a208e9ab85cbd1b7c51745580076f
+        Extension: psk_key_exchange_modes (len=2)
+            Type: psk_key_exchange_modes (45)
+            Length: 2
+            PSK Key Exchange Modes Length: 1
+            PSK Key Exchange Mode: PSK with (EC)DHE key establishment (psk_dhe_ke) (1)
+        Extension: supported_versions (len=7) TLS 1.3, TLS 1.2
+            Type: supported_versions (43)
+            Length: 7
+            Supported Versions length: 6
+            Supported Version: Reserved (GREASE) (0xcaca)
+            Supported Version: TLS 1.3 (0x0304)
+            Supported Version: TLS 1.2 (0x0303)
+        Extension: compress_certificate (len=3)
+            Type: compress_certificate (27)
+            Length: 3
+            Algorithms Length: 2
+            Algorithm: zlib (1)
+        Extension: Reserved (GREASE) (len=1)
+            Type: Reserved (GREASE) (6682)
+            Length: 1
+            Data: 00
